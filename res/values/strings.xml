@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pascal</string>
+    <string name="file">File</string>
+    <string name="edit">Edit</string>
+    <string name="run">Run</string>
+    <string name="new_program">New Program</string>
+    <string name="save">Save</string>
+    <string name="saved">saved</string>
+    <string name="filename">Enter filename</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="input">Input</string>
+</resources>

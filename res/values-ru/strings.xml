@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Паскаль</string>
+    <string name="file">Файл</string>
+    <string name="edit">Код</string>
+    <string name="run">Запуск</string>
+    <string name="new_program">Новая программа</string>
+    <string name="save">Сохранить</string>
+    <string name="saved">сохранен</string>
+    <string name="filename">Имя файла</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="input">Ввод</string>
+</resources>

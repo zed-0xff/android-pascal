@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/me.zed_0xff.android.pascal"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/my_tabhost"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="65px"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="65px">
+
+	    <ListView android:id="@+id/files"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+
+	    <EditText android:id="@+id/edit"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="top"
+                android:text="program HelloWorld;\nbegin\n  writeln(&quot;hello world!&quot;);\nend."/>
+
+            <TextView android:id="@+id/run"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=""/>
+
+        </FrameLayout>
+    </TabHost>
+
+    <com.admob.android.ads.AdView  
+        android:id="@+id/ad" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:backgroundColor="#000000"
+        app:primaryTextColor="#FFFFFF"
+        app:secondaryTextColor="#CCCCCC"
+        app:keywords="Pascal language interpreter education study computer"
+        />
+
+</LinearLayout>
