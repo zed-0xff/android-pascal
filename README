@@ -3,3 +3,11 @@ This is a Pascal language interpreter for Android platform.
 It uses a Pascal interpreter written in Java - http://sourceforge.net/projects/biff/ - by Lukasz F.
 
 Please fork/commit/pull if you want to improve it.
+
+How to build:
+  1. install Android SDK from http://developer.android.com/sdk/
+  2. set up path to SDK in local.properties file
+  3. [optionally] generate your private/public keys & set it up in build.properties file
+  4. issue "ant debug" or "ant release" command
+  5. pick up "Pascal-debug.apk" or "Pascal-release.apk" from "bin" subdirectory
+  6. enjoy! :)
