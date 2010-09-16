@@ -1,0 +1,5 @@
+This is a Pascal language interpreter for Android platform.
+
+It uses a Pascal interpreter written in Java - http://sourceforge.net/projects/biff/ - by Lukasz F.
+
+Please fork/commit/pull if you want to improve it.
